@@ -1,0 +1,69 @@
+{
+ "type": "search",
+ "results": [
+  [
+   {
+    "results": [{
+     "firstName": "Глеб",
+     "lastName": "Иванов"
+    }],
+    "criteria": {"lastName": "Иванов"}
+   },
+   {
+    "results": [],
+    "criteria": {"lastName": "Васильев"}
+   }
+  ],
+  [
+   {
+    "results": [{"not found": "for this criteria"}],
+    "criteria": {
+     "minTimes": "5",
+     "productName": "vdbve"
+    }
+   },
+   {
+    "results": [],
+    "criteria": {
+     "minTimes": "3",
+     "productName": "Хлеб"
+    }
+   }
+  ],
+  [
+   {
+    "results": [{
+     "firstName": "Сергей",
+     "lastName": "Иванов"
+    }],
+    "criteria": {
+     "minExpenses": "112",
+     "maxExpenses": "4000"
+    }
+   },
+   {
+    "results": [{
+     "firstName": "Сергей",
+     "lastName": "Иванов"
+    }],
+    "criteria": {
+     "minExpenses": "100",
+     "maxExpenses": "555"
+    }
+   }
+  ],
+  [{
+   "results": [
+    {
+     "firstName": "Сергей",
+     "lastName": "Иванов"
+    },
+    {
+     "firstName": "Дмитрий",
+     "lastName": "Васильев"
+    }
+   ],
+   "criteria": {"badCustomers": "3"}
+  }]
+ ]
+}

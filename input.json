@@ -1,0 +1,11 @@
+{
+  "criterias": [
+    {"lastName": "Иванов"},
+    {"lastName": "Васильев"},
+    {"productName": "vdbve", "minTimes": 5},
+    {"productName": "Хлеб", "minTimes": 3},
+    {"minExpenses": 112, "maxExpenses": 4000},
+    {"minExpenses": 100, "maxExpenses": 555},
+    {"badCustomers": 3}
+  ]
+}
